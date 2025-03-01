@@ -39,7 +39,7 @@ def team_selection(team_list = None):
 
     return home_team, away_team
 
-# Creates the function
+# Creates function 4
 def play_game( home_team = None, away_team = None   ):
     
     # Set scores equal to enter the while loop
