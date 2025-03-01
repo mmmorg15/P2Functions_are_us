@@ -3,6 +3,40 @@
 
 import random
 
+# Creating Function 3 - Using Big 12 teams for the teams list default
+def team_selection(team_list = None):
+    # If the user does not input a team list, default to the Big 12 teams
+    if team_list == None:
+        team_list = ['Arizona', 'Arizona State', 'Baylor', 'Brigham Young', 'Central Florida',
+                     'Colorado', 'Houston', 'Iowa State', 'Kansas', 'Kansas State', 'Oklahoma State',
+                     'Texas Christian', 'Texas Tech', 'Utah', 'West Virginia']
+        
+    # Display the list of teams
+    print('Here is the list of teams: ')
+    for i in range(len(team_list)):
+        print(f'{i + 1}. {team_list[i]}')
+
+    # Receive user input for which team will be the home team
+    home_index = int(input("Please select the home team (input the number by the team name): "))
+
+    # Remove that team, assign it to the home_team variable
+    home_team = team_list.pop(home_index - 1)
+
+    # Display the list of remaining teams
+    print("Here are potential opponents: ")
+    for i in range(len(team_list)):
+        print(f'{i + 1}. {team_list[i]}')
+
+    # Receive user input for which team will be the away team
+    away_index = int(input("Please select the away team (input the number by the team name): "))
+
+    # Assign away team to the away_team variable
+    away_team = team_list[i - 1]
+
+    return home_team, away_team
+
+
+
 # Gather inputs
 home = input("Enter the name of your team (home team): ")
 teams = int(input(f"Enter the number of teams that {home} will play (1-10): "))
