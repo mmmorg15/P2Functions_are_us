@@ -1,6 +1,22 @@
 # Colby Eastmond
 # A4 - Soccer Teams
 
+def finalRecord(home, games): 
+    wins = 0
+    losses = 0
+    for home_score,away_score in games:
+        if home_score > away_score:
+                wins += 1
+        else:
+                losses += 1
+
+    print(f"Final season record: {wins} - {losses}")
+    if wins >= losses:
+        print("You had a good season")
+    else:
+        print("Better luck next year")
+
+
 import random
 def menu():
     print("1.Play Simulator\n2.Exit ")
