@@ -7,6 +7,11 @@ def menu():
     iChoice=int(input("What would you like to do (1 or 2?)"))
     return iChoice
 
+iDecision=menu()
+if iDecision ==1:
+else:
+
+
 # Gather inputs
 home = input("Enter the name of your team (home team): ")
 teams = int(input(f"Enter the number of teams that {home} will play (1-10): "))
