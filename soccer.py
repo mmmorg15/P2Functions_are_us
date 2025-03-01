@@ -22,8 +22,8 @@ def team_selection(team_list = None, n_games = 3):
     # If the user does not input a team list, default to the Big 12 teams
     if team_list == None:
         team_list = ['Arizona', 'Arizona State', 'Baylor', 'Brigham Young', 'Central Florida',
-                     'Colorado', 'Houston', 'Iowa State', 'Kansas', 'Kansas State', 'Oklahoma State',
-                     'Texas Christian', 'Texas Tech', 'Utah', 'West Virginia']
+                    'Colorado', 'Houston', 'Iowa State', 'Kansas', 'Kansas State', 'Oklahoma State',
+                    'Texas Christian', 'Texas Tech', 'Utah', 'West Virginia']
         
     # Display the list of teams
     print('Here is the list of teams: ')
