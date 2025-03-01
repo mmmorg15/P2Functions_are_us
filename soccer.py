@@ -18,6 +18,13 @@ def finalRecord(home, games):
 
 
 import random
+# add a function to get the user's name (Jacob's function)
+def introduction():
+    print("\nWelcome to the Soccer Season Simulator! \n")
+    sName = input("What is your name? ").capitalize().strip( )
+    print(f"Welcome {sName}! Let's get started! \n")
+    return sName
+
 def menu():
     print("1.Play Simulator\n2.Exit ")
     iChoice=int(input("What would you like to do (1 or 2?)"))
