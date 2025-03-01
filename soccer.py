@@ -2,6 +2,10 @@
 # A4 - Soccer Teams
 
 import random
+def menu():
+    print("1.Play Simulator\n2.Exit ")
+    iChoice=int(input("What would you like to do (1 or 2?)"))
+    return iChoice
 
 # Creating Function 3 - Using Big 12 teams for the teams list default
 def team_selection(team_list = None):
