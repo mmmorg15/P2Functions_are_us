@@ -22,10 +22,5 @@ Everyone works on a Main function that calls other functions. Create the followi
 4. Play the game receiving both team names. Generate random scores without ties. Return W or L.
 
 5. Display the final record for a team. Receive the home team data and display information.
-        - Add another dictionary at the top called score_dict
-        - Delete Wins and Losses
-        - Delete the If home_score and away_score statement
-        - Create a tuple called game_scores = (home_score, away_score)
-        - Delete Print statement and insert the function
 
 NOTE: If there are more team members than functions that need to be created then the main function can be created by one individual.
