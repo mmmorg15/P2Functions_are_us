@@ -1,5 +1,6 @@
-# Colby Eastmond
-# A4 - Soccer Teams
+# Colby Eastmond, Merrick Morgan, Spencer Jorgensen, Talon Condie, Jacob Lee
+# P2 - Function Are Us
+# Created a script to use functions to run simulations of soccer games similar to assignment 4.
 
 
 import random
